@@ -46,75 +46,65 @@ Here's what the config data structure looks like for each section:
 
 #### Basic Information
 ```typescript
-name: "Your Name",
-title: "Your Job Title",
-description: "Brief site description",
+name: "AIRA JOY M.MACALOOD",
+description: "4th Year Computer Engineering Student",
 accentColor: "#1d4ed8", // Hex color for theme
 ```
 
 #### Social Links (all optional)
 ```typescript
 social: {
-  email: "your-email@example.com",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourprofile", 
-  github: "https://github.com/yourusername",
+  email: "macalood.airajoy@marsu.edu.ph",
+  linkedin: "https://linkedin.com/in/ryxxx",
+  twitter: "https://twitter.com/ryxxx", 
+  github: "https://github.com/ryxxx2004",
 }
 ```
 
 #### About Section
 ```typescript
-aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio."
+aboutMe: "As a 4th year Computer Engineering student at Marinduque State University, I have developed a strong curiosity for how technology can be applied to improve everyday life. My academic journey has given me opportunities to explore both hardware and software, allowing me to work on projects that involve automation, embedded systems, and applied research. I enjoy turning ideas into working solutions and learning new methods to improve them.
+What motivates me most is the challenge of problem-solving. Whether through designing circuits, writing code, or testing systems, I approach tasks with persistence and creativity. I also value collaboration, as working with others helps me gain new perspectives and produce better results. Beyond academics, I continue to explore technology through self-study and side projects, building a mindset that is adaptable and forward-looking."
 ```
 
 #### Skills
-```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
-```
-
-#### Projects
-```typescript
-projects: [
-  {
-    name: "Project Name",
-    description: "Brief description of what the project does and its impact",
-    link: "https://github.com/yourusername/project",
-    skills: ["React", "Node.js", "AWS"], // Technologies used
-  }
-]
-```
-
-#### Experience
-```typescript
-experience: [
-  {
-    company: "Company Name",
-    title: "Your Job Title",
-    dateRange: "Jan 2022 - Present",
-    bullets: [
-      "Led development of microservices architecture serving 1M+ users",
-      "Reduced API response times by 40% through optimization",
-      "Mentored team of 5 junior developers",
-    ],
-  }
-]
-```
+```typescript technical
+skills: ["Arduino", "Rasberry PI", "Microcontrollers", "Python", "C++", "C", "HTML", "CSS", "JavaScript"]
+```typescript Software skills: ["Adaptability in fast-paced environments, Critical Thinking, Problem-Solving, Team Collaboration, Project Coordination, and Time Management.    "], // Technologies used
 
 #### Education
 ```typescript
 education: [
   {
-    school: "University Name",
-    degree: "Bachelor of Science in Computer Science",
-    dateRange: "2014 - 2018",
-    achievements: [
-      "Graduated Magna Cum Laude with 3.8 GPA",
-      "Dean's List all semesters",
-      "President of Computer Science Club"
-    ]
+    name: "Education",
+    description: "Senior High School
+Marinduque National High School (2020 – 2022)
+With Honors",
+    "Junior High School
+Marinduque National High School (2018 – 2020)
+With Honors", "Primary Education
+Bantay Elementary School (2013 – 2016)
+With Honors"
   }
 ]
 ```
+
+#### Achievements & Certifications
+```typescript
+achievements & certification: 
+  {
+    10 Hours BOHS Training Course for SO1 (April 2025)
+  }
+```
+#### Seminars & Trainings
+```typescript
+Seminars & Trainings: 
+  {
+    "Toxic Productivity: When Working Hard Becomes Harmful (April, 2025)",
+"Fundamentals of Image processing using Open CV and Matlab (2023)"
+  }
+```
+
 
 ### Icons
 
